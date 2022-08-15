@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControleFinanceiro.Api", "ControleFinanceiro.Api\ControleFinanceiro.Api.csproj", "{49C2E1F5-3E68-467D-8F11-7DD313790BE5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Api", "1 - Api", "{C20A52EF-76F3-44F0-BC08-9D6A8C3B7049}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Business", "2 - Business", "{4A20727A-873A-42DF-8E2C-BA144675590B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Repository", "3 - Repository", "{E0A365C4-7EE3-4172-95BE-7CBA2E3E3AF1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Models", "4 - Models", "{7FC53F5B-4B9B-446B-A3AF-4E0E7F25CCBC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControleFinanceiro.Business", "ControleFinanceiro.Business\ControleFinanceiro.Business.csproj", "{82531665-D895-4743-AFF9-E544332DC8A7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControleFinanceiro.Repository", "ControleFinanceiro.Repository\ControleFinanceiro.Repository.csproj", "{41D76BB1-35FB-48DD-A800-6BD88A487562}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControleFinanceiro.Models", "ControleFinanceiro.Models\ControleFinanceiro.Models.csproj", "{20DCA0AE-D03A-4F36-B703-C00BE8F6C6F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Contexts", "5 - Contexts", "{2F1FFB8B-C7DD-43F7-919C-4DC87A5356A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleFinanceiro.Context", "ControleFinanceiro.Context\ControleFinanceiro.Context.csproj", "{1AFCC593-6DC9-4BF1-926D-F600845A3ACD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{49C2E1F5-3E68-467D-8F11-7DD313790BE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49C2E1F5-3E68-467D-8F11-7DD313790BE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49C2E1F5-3E68-467D-8F11-7DD313790BE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49C2E1F5-3E68-467D-8F11-7DD313790BE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82531665-D895-4743-AFF9-E544332DC8A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82531665-D895-4743-AFF9-E544332DC8A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82531665-D895-4743-AFF9-E544332DC8A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82531665-D895-4743-AFF9-E544332DC8A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41D76BB1-35FB-48DD-A800-6BD88A487562}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41D76BB1-35FB-48DD-A800-6BD88A487562}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41D76BB1-35FB-48DD-A800-6BD88A487562}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41D76BB1-35FB-48DD-A800-6BD88A487562}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20DCA0AE-D03A-4F36-B703-C00BE8F6C6F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20DCA0AE-D03A-4F36-B703-C00BE8F6C6F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20DCA0AE-D03A-4F36-B703-C00BE8F6C6F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20DCA0AE-D03A-4F36-B703-C00BE8F6C6F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AFCC593-6DC9-4BF1-926D-F600845A3ACD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AFCC593-6DC9-4BF1-926D-F600845A3ACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AFCC593-6DC9-4BF1-926D-F600845A3ACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AFCC593-6DC9-4BF1-926D-F600845A3ACD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{49C2E1F5-3E68-467D-8F11-7DD313790BE5} = {C20A52EF-76F3-44F0-BC08-9D6A8C3B7049}
+		{82531665-D895-4743-AFF9-E544332DC8A7} = {4A20727A-873A-42DF-8E2C-BA144675590B}
+		{41D76BB1-35FB-48DD-A800-6BD88A487562} = {E0A365C4-7EE3-4172-95BE-7CBA2E3E3AF1}
+		{20DCA0AE-D03A-4F36-B703-C00BE8F6C6F0} = {7FC53F5B-4B9B-446B-A3AF-4E0E7F25CCBC}
+		{1AFCC593-6DC9-4BF1-926D-F600845A3ACD} = {2F1FFB8B-C7DD-43F7-919C-4DC87A5356A9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {327ECE5E-91A8-4FEF-9BD0-368AD4D3BBC8}
+	EndGlobalSection
+EndGlobal
